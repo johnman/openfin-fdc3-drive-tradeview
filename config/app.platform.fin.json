@@ -7,7 +7,7 @@
   },
   "platform": {
     "uuid": "trade-view-fdc3-sample",
-    "applicationIcon": "https://4389f.csb.app/favicon.ico",
+    "applicationIcon": "https://tteg7.csb.app/favicon.ico",
     "autoShow": false,
     "defaultViewOptions": {
       "experimental": {
@@ -18,7 +18,7 @@
           "url": "https://cdn.openfin.co/services/openfin/fdc3/0.2.2/openfin-fdc3.js"
         },
         {
-          "url": "https://4389f.csb.app/js/preload.js"
+          "url": "https://tteg7.csb.app/js/preload.js"
         }
       ]
     }

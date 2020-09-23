@@ -1,7 +1,7 @@
 {
-  "name": "tradeview-drivenby-fdc3",
+  "name": "openfin-fdc3-tradeview",
   "version": "1.0.0",
-  "description": "",
+  "description": "And example of driving an external site through fdc3 context or window context using a preload script.",
   "main": "index.html",
   "scripts": {
     "start": "serve"
