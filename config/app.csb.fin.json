@@ -1,0 +1,21 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "startup_app": {
+    "name": "OpenFin CSB Container",
+    "description": "Hosts the code sandbox ui in OpenFin",
+    "url": "https://hrsbf.csb.app/",
+    "uuid": "openfin-csb-template",
+    "autoShow": true,
+    "applicationIcon": "https://hrsbf.csb.app/favicon.ico",
+    "api": {
+      "iframe": {
+        "crossOriginInjection": true,
+        "sameOriginInjection": true
+      }
+    }
+  },
+  "runtime": {
+    "version": "stable"
+  }
+}
