@@ -1,0 +1,62 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "runtime": {
+    "arguments": "--v=1 --inspect",
+    "version": "stable"
+  },
+  "platform": {
+    "uuid": "trade-view-fdc3-config-sample",
+    "applicationIcon": "https://tteg7.csb.app/favicon.ico",
+    "autoShow": false,
+    "fdc3Api": true,
+    "defaultViewOptions": {
+      "experimental": {
+        "childWindows": true
+      },
+      "preloadScripts": [
+        {
+          "url": "https://tteg7.csb.app/js/preload.js"
+        }
+      ]
+    }
+  },
+  "snapshot": {
+    "windows": [
+      {
+        "defaultWidth": 800,
+        "defaultHeight": 600,
+        "defaultLeft": 0,
+        "defaultTop": 0,
+        "saveWindowState": false,
+        "backgroundThrottling": true,
+        "layout": {
+          "content": [
+            {
+              "type": "stack",
+              "width": 100,
+              "isClosable": true,
+              "reorderEnabled": true,
+              "title": "",
+              "activeItemIndex": 0,
+              "content": [
+                {
+                  "type": "component",
+                  "componentName": "view",
+                  "componentState": {
+                    "url": "https://www.tradingview.com/chart/?symbol=AAPL",
+                    "name": "component_1584387105285"
+                  },
+                  "isClosable": true,
+                  "reorderEnabled": true,
+                  "title": "view"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "services": []
+}
